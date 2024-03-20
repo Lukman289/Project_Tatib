@@ -90,7 +90,6 @@
 
             function saveValue(button) {
                 valueNIM = button.value;
-                console.log(valueNIM);
 
                 var deleteButton = document.getElementById("idData");
                 deleteButton.value = valueNIM;
